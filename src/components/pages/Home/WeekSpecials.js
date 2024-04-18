@@ -29,6 +29,7 @@ const meals = [
     description: `This comes straight from grandma's recipe book, every last 
       ingredient has been sourced and is as authentic as can be imagined.`,
   },
+
 ];
 
 const WeekSpecials = () => {
@@ -40,7 +41,7 @@ const WeekSpecials = () => {
           Online Menu
         </Link>
       </div>
-      {meals.map((meal, index) => 
+      {meals.map((meal, index) =>
         <MealCard key={index} meal={meal} />
       )}
     </section>

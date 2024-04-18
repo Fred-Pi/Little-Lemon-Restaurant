@@ -78,14 +78,26 @@
   .nav-bar-links {
     position: absolute;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
     height: 100vh;
     top: 0;
-    left: -50%;
+    left: -80%;
     background-color: #FFFFFF;
     box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.2);
     z-index: 100;
+    backdrop-filter: grayscale(100%) contrast(150%) opacity(80%);
   }
+
+  /* .nav-bar-links::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    filter: blur(10px);
+  } */
 
   .nav-bar-links li {
     flex-direction: column;
