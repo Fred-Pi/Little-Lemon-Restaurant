@@ -1,7 +1,7 @@
 # Capstone project for the Meta Front-End Developer Professional Certificate
 
 
-This website showcases a booking application on the Little Lemon Website. This was created with React Components to show an understanding of utilizing React for creating the website. This also features utilzing API calls.
+This project showcases a booking application on the Little Lemon Website. This was created with React Components to show an understanding of utilizing React for creating the website. This also features utilzing API calls.
 
 ## Features
 
