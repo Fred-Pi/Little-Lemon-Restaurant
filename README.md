@@ -9,7 +9,7 @@ This project showcases a booking application on the Little Lemon Website. This w
 - Explore the restaurant's menu;
 - Reservations possible through an interactive form;
 - Reservation confirmation through a popup;
-- Built with React for a modern interactive user experience.
+- Built React.js for a modern interactive user experience.
 
 
 ## Scripts
